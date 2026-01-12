@@ -1,0 +1,2376 @@
+{
+    "metadata": {
+        "route_name": "KRL Commuter Line Yogyakarta - Solo",
+        "operator": "PT KAI Commuter",
+        "last_updated": "2026-01-06",
+        "fare": 8000,
+        "currency": "IDR",
+        "total_stations": 13,
+        "average_journey_time_minutes": 90
+    },
+    "stations": [
+        {
+            "id": "YK",
+            "name": "Yogyakarta (Tugu)",
+            "code": "YK",
+            "city": "Yogyakarta",
+            "position": 1,
+            "coordinates": {
+                "latitude": -7.7893,
+                "longitude": 110.3639
+            }
+        },
+        {
+            "id": "LPN",
+            "name": "Lempuyangan",
+            "code": "LPN",
+            "city": "Yogyakarta",
+            "position": 2,
+            "coordinates": {
+                "latitude": -7.7834,
+                "longitude": 110.3856
+            }
+        },
+        {
+            "id": "MGW",
+            "name": "Maguwo",
+            "code": "MGW",
+            "city": "Sleman",
+            "position": 3,
+            "coordinates": {
+                "latitude": -7.7875,
+                "longitude": 110.4314
+            }
+        },
+        {
+            "id": "BRB",
+            "name": "Brambanan",
+            "code": "BRB",
+            "city": "Sleman",
+            "position": 4,
+            "coordinates": {
+                "latitude": -7.7513,
+                "longitude": 110.4904
+            }
+        },
+        {
+            "id": "SRO",
+            "name": "Srowot",
+            "code": "SRO",
+            "city": "Klaten",
+            "position": 5,
+            "coordinates": {
+                "latitude": -7.7347,
+                "longitude": 110.5625
+            }
+        },
+        {
+            "id": "KLT",
+            "name": "Klaten",
+            "code": "KLT",
+            "city": "Klaten",
+            "position": 6,
+            "coordinates": {
+                "latitude": -7.7117,
+                "longitude": 110.6067
+            }
+        },
+        {
+            "id": "CPR",
+            "name": "Ceper",
+            "code": "CPR",
+            "city": "Klaten",
+            "position": 7,
+            "coordinates": {
+                "latitude": -7.6731,
+                "longitude": 110.6778
+            }
+        },
+        {
+            "id": "DL",
+            "name": "Delanggu",
+            "code": "DL",
+            "city": "Klaten",
+            "position": 8,
+            "coordinates": {
+                "latitude": -7.6161,
+                "longitude": 110.6917
+            }
+        },
+        {
+            "id": "GWK",
+            "name": "Gawok",
+            "code": "GWK",
+            "city": "Sukoharjo",
+            "position": 9,
+            "coordinates": {
+                "latitude": -7.5889,
+                "longitude": 110.7278
+            }
+        },
+        {
+            "id": "PWS",
+            "name": "Purwosari",
+            "code": "PWS",
+            "city": "Surakarta",
+            "position": 10,
+            "coordinates": {
+                "latitude": -7.5669,
+                "longitude": 110.7989
+            }
+        },
+        {
+            "id": "SLO",
+            "name": "Solo Balapan",
+            "code": "SLO",
+            "city": "Surakarta",
+            "position": 11,
+            "coordinates": {
+                "latitude": -7.5561,
+                "longitude": 110.8244
+            }
+        },
+        {
+            "id": "SJR",
+            "name": "Solo Jebres",
+            "code": "SJR",
+            "city": "Surakarta",
+            "position": 12,
+            "coordinates": {
+                "latitude": -7.5467,
+                "longitude": 110.8417
+            }
+        },
+        {
+            "id": "PLR",
+            "name": "Palur",
+            "code": "PLR",
+            "city": "Karanganyar",
+            "position": 13,
+            "coordinates": {
+                "latitude": -7.5311,
+                "longitude": 110.8606
+            }
+        }
+    ],
+    "schedules": {
+        "yogyakarta_to_solo": [
+            {
+                "train_number": "KA646",
+                "train_code": "646",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "05:05",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "05:10",
+                        "arrival": "05:10"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "05:17",
+                        "arrival": "05:17"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "05:25",
+                        "arrival": "05:25"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "05:33",
+                        "arrival": "05:33"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "05:40",
+                        "arrival": "05:40"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "05:50",
+                        "arrival": "05:50"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "05:57",
+                        "arrival": "05:57"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "06:05",
+                        "arrival": "06:05"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "06:14",
+                        "arrival": "06:14"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "06:19",
+                        "arrival": "06:19"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "06:23",
+                        "arrival": "06:23"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "06:26"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA648",
+                "train_code": "648",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "06:00",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "06:06",
+                        "arrival": "06:06"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "06:13",
+                        "arrival": "06:13"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "06:20",
+                        "arrival": "06:20"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "06:28",
+                        "arrival": "06:28"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "06:35",
+                        "arrival": "06:35"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "06:45",
+                        "arrival": "06:45"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "06:52",
+                        "arrival": "06:52"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "07:00",
+                        "arrival": "07:00"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "07:08",
+                        "arrival": "07:08"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "07:13",
+                        "arrival": "07:13"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "07:17",
+                        "arrival": "07:17"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "07:20"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA664",
+                "train_code": "664",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "07:05",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "07:10",
+                        "arrival": "07:10"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "07:17",
+                        "arrival": "07:17"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "07:25",
+                        "arrival": "07:25"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "07:32",
+                        "arrival": "07:32"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "07:39",
+                        "arrival": "07:39"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "07:50",
+                        "arrival": "07:50"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "07:57",
+                        "arrival": "07:57"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "08:05",
+                        "arrival": "08:05"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "08:14",
+                        "arrival": "08:14"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "08:20",
+                        "arrival": "08:20"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "08:25",
+                        "arrival": "08:25"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "08:29"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA666",
+                "train_code": "666",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "07:54",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "07:59",
+                        "arrival": "07:59"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "08:06",
+                        "arrival": "08:06"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "08:13",
+                        "arrival": "08:13"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "08:21",
+                        "arrival": "08:21"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "08:28",
+                        "arrival": "08:28"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "08:38",
+                        "arrival": "08:38"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "08:45",
+                        "arrival": "08:45"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "08:53",
+                        "arrival": "08:53"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "09:02",
+                        "arrival": "09:02"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "09:08",
+                        "arrival": "09:08"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "09:13",
+                        "arrival": "09:13"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "09:18"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA670",
+                "train_code": "670",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "08:49",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "08:54",
+                        "arrival": "08:54"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "09:01",
+                        "arrival": "09:01"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "09:08",
+                        "arrival": "09:08"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "09:16",
+                        "arrival": "09:16"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "09:23",
+                        "arrival": "09:23"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "09:33",
+                        "arrival": "09:33"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "09:40",
+                        "arrival": "09:40"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "09:48",
+                        "arrival": "09:48"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "09:56",
+                        "arrival": "09:56"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "10:02",
+                        "arrival": "10:02"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "10:07",
+                        "arrival": "10:07"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "10:12"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA672",
+                "train_code": "672",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "10:56",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "11:01",
+                        "arrival": "11:01"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "11:08",
+                        "arrival": "11:08"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "11:15",
+                        "arrival": "11:15"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "11:23",
+                        "arrival": "11:23"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "11:30",
+                        "arrival": "11:30"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "11:40",
+                        "arrival": "11:40"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "11:47",
+                        "arrival": "11:47"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "11:55",
+                        "arrival": "11:55"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "12:04",
+                        "arrival": "12:04"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "12:10",
+                        "arrival": "12:10"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "12:14",
+                        "arrival": "12:14"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "12:18"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA674",
+                "train_code": "674",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "12:07",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "12:12",
+                        "arrival": "12:12"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "12:19",
+                        "arrival": "12:19"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "12:26",
+                        "arrival": "12:26"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "12:34",
+                        "arrival": "12:34"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "12:41",
+                        "arrival": "12:41"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "12:51",
+                        "arrival": "12:51"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "12:58",
+                        "arrival": "12:58"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "13:06",
+                        "arrival": "13:06"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "13:15",
+                        "arrival": "13:15"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "13:21",
+                        "arrival": "13:21"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "13:26",
+                        "arrival": "13:26"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "13:30"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA676",
+                "train_code": "676",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "13:57",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "14:02",
+                        "arrival": "14:02"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "14:10",
+                        "arrival": "14:10"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "14:17",
+                        "arrival": "14:17"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "14:25",
+                        "arrival": "14:25"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "14:33",
+                        "arrival": "14:33"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "14:43",
+                        "arrival": "14:43"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "14:50",
+                        "arrival": "14:50"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "14:58",
+                        "arrival": "14:58"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "15:06",
+                        "arrival": "15:06"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "15:12",
+                        "arrival": "15:12"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "15:17",
+                        "arrival": "15:17"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "15:21"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA678",
+                "train_code": "678",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "15:01",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "15:06",
+                        "arrival": "15:06"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "15:13",
+                        "arrival": "15:13"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "15:20",
+                        "arrival": "15:20"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "15:28",
+                        "arrival": "15:28"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "15:36",
+                        "arrival": "15:36"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "15:46",
+                        "arrival": "15:46"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "15:53",
+                        "arrival": "15:53"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "16:01",
+                        "arrival": "16:01"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "16:10",
+                        "arrival": "16:10"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "16:16",
+                        "arrival": "16:16"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "16:21",
+                        "arrival": "16:21"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "16:25"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA680",
+                "train_code": "680",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "16:10",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "16:15",
+                        "arrival": "16:15"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "16:22",
+                        "arrival": "16:22"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "16:29",
+                        "arrival": "16:29"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "16:37",
+                        "arrival": "16:37"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "16:44",
+                        "arrival": "16:44"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "16:55",
+                        "arrival": "16:55"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "17:02",
+                        "arrival": "17:02"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "17:10",
+                        "arrival": "17:10"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "17:28",
+                        "arrival": "17:28"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "17:35",
+                        "arrival": "17:35"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "17:40",
+                        "arrival": "17:40"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "17:45"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA682",
+                "train_code": "682",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "17:35",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "17:40",
+                        "arrival": "17:40"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "17:47",
+                        "arrival": "17:47"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "17:54",
+                        "arrival": "17:54"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "18:01",
+                        "arrival": "18:01"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "18:08",
+                        "arrival": "18:08"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "18:19",
+                        "arrival": "18:19"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "18:26",
+                        "arrival": "18:26"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "18:34",
+                        "arrival": "18:34"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "18:42",
+                        "arrival": "18:42"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "18:48",
+                        "arrival": "18:48"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "18:53",
+                        "arrival": "18:53"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "18:57"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA684",
+                "train_code": "684",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "18:08",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "18:13",
+                        "arrival": "18:13"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "18:20",
+                        "arrival": "18:20"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "18:27",
+                        "arrival": "18:27"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "18:35",
+                        "arrival": "18:35"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "18:42",
+                        "arrival": "18:42"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "18:52",
+                        "arrival": "18:52"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "18:59",
+                        "arrival": "18:59"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "19:07",
+                        "arrival": "19:07"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "19:16",
+                        "arrival": "19:16"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "19:21",
+                        "arrival": "19:21"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "19:25",
+                        "arrival": "19:25"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "19:28"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA686",
+                "train_code": "686",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "20:15",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "20:20",
+                        "arrival": "20:20"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "20:27",
+                        "arrival": "20:27"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "20:34",
+                        "arrival": "20:34"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "20:42",
+                        "arrival": "20:42"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "20:50",
+                        "arrival": "20:50"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "21:00",
+                        "arrival": "21:00"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "21:07",
+                        "arrival": "21:07"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "21:15",
+                        "arrival": "21:15"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "21:24",
+                        "arrival": "21:24"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "21:30",
+                        "arrival": "21:30"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "21:35",
+                        "arrival": "21:35"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "21:40"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA688",
+                "train_code": "688",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "21:20",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "21:25",
+                        "arrival": "21:25"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "21:32",
+                        "arrival": "21:32"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "21:39",
+                        "arrival": "21:39"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "21:47",
+                        "arrival": "21:47"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "21:54",
+                        "arrival": "21:54"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "22:05",
+                        "arrival": "22:05"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "22:12",
+                        "arrival": "22:12"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "22:20",
+                        "arrival": "22:20"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "22:28",
+                        "arrival": "22:28"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "22:34",
+                        "arrival": "22:34"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "22:39",
+                        "arrival": "22:39"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "22:43"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA690",
+                "train_code": "690",
+                "departure_station": "YK",
+                "arrival_station": "PLR",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "YK",
+                        "departure": "22:35",
+                        "arrival": null
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "22:40",
+                        "arrival": "22:40"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "22:47",
+                        "arrival": "22:47"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "22:54",
+                        "arrival": "22:54"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "23:02",
+                        "arrival": "23:02"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "23:10",
+                        "arrival": "23:10"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "23:20",
+                        "arrival": "23:20"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "23:27",
+                        "arrival": "23:27"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "23:35",
+                        "arrival": "23:35"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "23:44",
+                        "arrival": "23:44"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "23:50",
+                        "arrival": "23:50"
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "23:55",
+                        "arrival": "23:55"
+                    },
+                    {
+                        "station": "PLR",
+                        "departure": null,
+                        "arrival": "00:00"
+                    }
+                ]
+            }
+        ],
+        "solo_to_yogyakarta": [
+            {
+                "train_number": "KA643",
+                "train_code": "643",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "05:00",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "05:06",
+                        "arrival": "05:06"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "05:13",
+                        "arrival": "05:13"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "05:19",
+                        "arrival": "05:19"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "05:28",
+                        "arrival": "05:28"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "05:36",
+                        "arrival": "05:36"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "05:43",
+                        "arrival": "05:43"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "05:53",
+                        "arrival": "05:53"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "06:00",
+                        "arrival": "06:00"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "06:08",
+                        "arrival": "06:08"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "06:15",
+                        "arrival": "06:15"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "06:20",
+                        "arrival": "06:20"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "06:23"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA645",
+                "train_code": "645",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "06:05",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "06:11",
+                        "arrival": "06:11"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "06:18",
+                        "arrival": "06:18"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "06:24",
+                        "arrival": "06:24"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "06:33",
+                        "arrival": "06:33"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "06:41",
+                        "arrival": "06:41"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "06:48",
+                        "arrival": "06:48"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "06:58",
+                        "arrival": "06:58"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "07:05",
+                        "arrival": "07:05"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "07:13",
+                        "arrival": "07:13"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "07:20",
+                        "arrival": "07:20"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "07:25",
+                        "arrival": "07:25"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "07:29"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA649",
+                "train_code": "649",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "07:15",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "07:21",
+                        "arrival": "07:21"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "07:27",
+                        "arrival": "07:27"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "07:33",
+                        "arrival": "07:33"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "07:42",
+                        "arrival": "07:42"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "07:50",
+                        "arrival": "07:50"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "07:57",
+                        "arrival": "07:57"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "08:07",
+                        "arrival": "08:07"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "08:14",
+                        "arrival": "08:14"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "08:22",
+                        "arrival": "08:22"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "08:30",
+                        "arrival": "08:30"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "08:35",
+                        "arrival": "08:35"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "08:39"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA651",
+                "train_code": "651",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "08:56",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "09:02",
+                        "arrival": "09:02"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "09:08",
+                        "arrival": "09:08"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "09:14",
+                        "arrival": "09:14"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "09:32",
+                        "arrival": "09:32"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "09:40",
+                        "arrival": "09:40"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "09:47",
+                        "arrival": "09:47"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "09:57",
+                        "arrival": "09:57"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "10:04",
+                        "arrival": "10:04"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "10:12",
+                        "arrival": "10:12"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "10:19",
+                        "arrival": "10:19"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "10:23",
+                        "arrival": "10:23"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "10:27"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA655",
+                "train_code": "655",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "10:40",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "10:46",
+                        "arrival": "10:46"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "10:52",
+                        "arrival": "10:52"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "10:58",
+                        "arrival": "10:58"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "11:07",
+                        "arrival": "11:07"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "11:15",
+                        "arrival": "11:15"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "11:22",
+                        "arrival": "11:22"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "11:32",
+                        "arrival": "11:32"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "11:39",
+                        "arrival": "11:39"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "11:46",
+                        "arrival": "11:46"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "11:53",
+                        "arrival": "11:53"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "11:57",
+                        "arrival": "11:57"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "11:59"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA657",
+                "train_code": "657",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "12:50",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "12:56",
+                        "arrival": "12:56"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "13:03",
+                        "arrival": "13:03"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "13:09",
+                        "arrival": "13:09"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "13:18",
+                        "arrival": "13:18"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "13:26",
+                        "arrival": "13:26"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "13:33",
+                        "arrival": "13:33"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "13:43",
+                        "arrival": "13:43"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "13:50",
+                        "arrival": "13:50"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "13:57",
+                        "arrival": "13:57"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "14:04",
+                        "arrival": "14:04"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "14:09",
+                        "arrival": "14:09"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "14:12"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA661",
+                "train_code": "661",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "13:43",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "13:49",
+                        "arrival": "13:49"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "13:55",
+                        "arrival": "13:55"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "14:01",
+                        "arrival": "14:01"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "14:10",
+                        "arrival": "14:10"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "14:18",
+                        "arrival": "14:18"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "14:25",
+                        "arrival": "14:25"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "14:35",
+                        "arrival": "14:35"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "14:42",
+                        "arrival": "14:42"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "14:50",
+                        "arrival": "14:50"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "14:57",
+                        "arrival": "14:57"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "15:02",
+                        "arrival": "15:02"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "15:06"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA663",
+                "train_code": "663",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "15:35",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "15:41",
+                        "arrival": "15:41"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "15:48",
+                        "arrival": "15:48"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "15:54",
+                        "arrival": "15:54"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "16:03",
+                        "arrival": "16:03"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "16:11",
+                        "arrival": "16:11"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "16:18",
+                        "arrival": "16:18"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "16:28",
+                        "arrival": "16:28"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "16:35",
+                        "arrival": "16:35"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "16:42",
+                        "arrival": "16:42"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "16:49",
+                        "arrival": "16:49"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "16:53",
+                        "arrival": "16:53"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "16:56"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA667",
+                "train_code": "667",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "16:35",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "16:41",
+                        "arrival": "16:41"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "16:47",
+                        "arrival": "16:47"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "16:53",
+                        "arrival": "16:53"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "17:02",
+                        "arrival": "17:02"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "17:10",
+                        "arrival": "17:10"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "17:17",
+                        "arrival": "17:17"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "17:27",
+                        "arrival": "17:27"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "17:34",
+                        "arrival": "17:34"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "17:41",
+                        "arrival": "17:41"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "17:48",
+                        "arrival": "17:48"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "17:52",
+                        "arrival": "17:52"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "17:55"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA669",
+                "train_code": "669",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "18:05",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "18:11",
+                        "arrival": "18:11"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "18:19",
+                        "arrival": "18:19"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "18:27",
+                        "arrival": "18:27"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "18:36",
+                        "arrival": "18:36"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "18:44",
+                        "arrival": "18:44"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "18:51",
+                        "arrival": "18:51"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "19:01",
+                        "arrival": "19:01"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "19:08",
+                        "arrival": "19:08"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "19:16",
+                        "arrival": "19:16"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "19:23",
+                        "arrival": "19:23"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "19:22",
+                        "arrival": "19:22"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "19:25"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA673",
+                "train_code": "673",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "19:45",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "19:51",
+                        "arrival": "19:51"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "20:01",
+                        "arrival": "20:01"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "20:10",
+                        "arrival": "20:10"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "20:19",
+                        "arrival": "20:19"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "20:27",
+                        "arrival": "20:27"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "20:34",
+                        "arrival": "20:34"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "20:44",
+                        "arrival": "20:44"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "20:51",
+                        "arrival": "20:51"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "20:58",
+                        "arrival": "20:58"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "21:05",
+                        "arrival": "21:05"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "21:06",
+                        "arrival": "21:06"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "21:09"
+                    }
+                ]
+            },
+            {
+                "train_number": "KA675",
+                "train_code": "675",
+                "departure_station": "PLR",
+                "arrival_station": "YK",
+                "operating_days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "stops": [
+                    {
+                        "station": "PLR",
+                        "departure": "20:42",
+                        "arrival": null
+                    },
+                    {
+                        "station": "SJR",
+                        "departure": "20:48",
+                        "arrival": "20:48"
+                    },
+                    {
+                        "station": "SLO",
+                        "departure": "20:54",
+                        "arrival": "20:54"
+                    },
+                    {
+                        "station": "PWS",
+                        "departure": "21:00",
+                        "arrival": "21:00"
+                    },
+                    {
+                        "station": "GWK",
+                        "departure": "21:19",
+                        "arrival": "21:19"
+                    },
+                    {
+                        "station": "DL",
+                        "departure": "21:27",
+                        "arrival": "21:27"
+                    },
+                    {
+                        "station": "CPR",
+                        "departure": "21:34",
+                        "arrival": "21:34"
+                    },
+                    {
+                        "station": "KLT",
+                        "departure": "21:44",
+                        "arrival": "21:44"
+                    },
+                    {
+                        "station": "SRO",
+                        "departure": "21:51",
+                        "arrival": "21:51"
+                    },
+                    {
+                        "station": "BRB",
+                        "departure": "21:58",
+                        "arrival": "21:58"
+                    },
+                    {
+                        "station": "MGW",
+                        "departure": "21:56",
+                        "arrival": "21:56"
+                    },
+                    {
+                        "station": "LPN",
+                        "departure": "21:58",
+                        "arrival": "21:58"
+                    },
+                    {
+                        "station": "YK",
+                        "departure": null,
+                        "arrival": "22:01"
+                    }
+                ]
+            }
+        ]
+    }
+}
